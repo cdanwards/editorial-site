@@ -38,7 +38,7 @@ export interface Strength {
 export const STRENGTHS: Strength[] = [
   {
     title: "Agentic engineering",
-    text: "Most of my work now runs through coding agents. I write the specs, context files, skills and automated checks that let agents ship production code, run them in parallel on isolated worktrees, and validate everything before it merges. I brought the practice into my team's workflow and built a workshop to teach it.",
+    text: "Most of my work now runs through coding agents. I write the specs, context files, skills and automated checks that let agents ship production code, run them in parallel on isolated worktrees, and validate everything before it merges. I brought the practice into my team's workflow, and built and led an internal workshop to teach it to 25 engineers at Infinite Red.",
   },
   {
     title: "Mobile architecture",
@@ -95,11 +95,11 @@ export const PROJECTS: Project[] = [
       },
       {
         heading: "Decisions",
-        text: "Every task starts from a written spec. Each project carries context files and reusable skills, so an agent begins with the conventions a new teammate would have to learn. Each ticket runs in its own git worktree with its own simulator and Metro port, which lets several agents work in parallel without colliding. Automated checks gate the output: lint, types and tests, plus custom checkers that block a result when it breaks a rule. Agents drive the simulator to verify UI changes, and nothing merges without review.",
+        text: "Every task starts from a written spec. Each project carries context files and reusable skills, so an agent begins with the conventions a new teammate would have to learn. Each ticket runs in its own git worktree with its own simulator and Metro port, which lets several agents work in parallel without colliding. Automated checks gate the output: lint, types and tests, plus custom checkers that block a result when it breaks a rule. Agents drive the simulator to verify UI changes, and nothing merges without review. The approach is model agnostic; at the time, the tools were Claude Code, Cursor and MCP servers.",
       },
       {
         heading: "Teaching it",
-        text: "I built The New Stack, a hands-on workshop for senior and staff engineers on context engineering: how to give an agent context, how to give it tools, and how to break work down for it. Participants run the same task with and without a context file and compare the results.",
+        text: "I built and led The New Stack, a hands-on internal workshop for 25 engineers at Infinite Red on context engineering: how to give an agent context, how to give it tools, and how to break work down for it. Participants run the same task with and without a context file and compare the results.",
       },
       {
         heading: "Result",
@@ -252,7 +252,7 @@ export const EXPERIENCE: Job[] = [
       "Owned authentication and onboarding features including SSO. Premature logouts went down 70%.",
       "Defined and enforced CI/CD pipelines, testing requirements and deployment benchmarks using GitHub Actions, EAS Build and Update, and feature flagging with LaunchDarkly.",
       "Integrated AI-augmented development practices (Claude Code, Cursor) into team workflows, with rigorous validation of AI-generated code before production.",
-      "Built an agentic development workflow of written specs, project context files, reusable skills and parallel agents on isolated worktrees, and created The New Stack, a workshop on context engineering for senior and staff engineers.",
+      "Built an agentic development workflow of written specs, project context files, reusable skills and parallel agents on isolated worktrees, and built and led The New Stack, an internal workshop on context engineering for 25 Infinite Red engineers.",
       "Championed spec-driven development, writing feature specifications before implementation to reduce ambiguity and prevent rework.",
       "Mentored junior and mid-level engineers through code reviews, pairing sessions and architectural guidance.",
       "Open source: contributor to Ignite and react-native-mlkit, and creator of Ignite Cookbook.",

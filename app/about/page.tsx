@@ -28,8 +28,8 @@ export default function About() {
           on the parts that make them reliable: written specs, project
           context, reusable skills and automated checks, with several agents
           working in parallel and everything validated before it merges. I
-          teach the approach too, in a workshop I built for senior and staff
-          engineers.
+          teach the approach too: I built and led an internal workshop on it for
+          25 engineers at Infinite Red.
         </p>
         <p>
           Before Infinite Red I built full-stack features in React Native,
