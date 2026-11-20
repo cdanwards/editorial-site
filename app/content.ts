@@ -114,15 +114,15 @@ export const PROJECTS: Project[] = [
     role: "Staff software engineer",
     stack: ["React Native", "Next.js", "Stream", "TypeScript"],
     standfirst:
-      "Real-time chat on web and mobile, built on Stream, for thousands of people using it at the same moment.",
+      "Real-time chat on web and mobile inside an internal workforce app that connects managers with their teams. Built on Stream, for thousands of people using it at the same moment.",
     blocks: [
       {
         heading: "The problem",
-        text: "Chat only works if it feels instant. Messages arrive constantly from thousands of people at once, and the interface has to keep up on web and mobile without slowing the rest of the app.",
+        text: "Chat only works if it feels instant. Messages arrive constantly from thousands of people at once, many users sit in a lot of conversations at the same time, and the interface has to keep up on web and mobile without slowing the rest of the app.",
       },
       {
         heading: "Decisions",
-        text: "Stream handles the messaging infrastructure, so the work went into the client: integrating it on web and mobile and optimizing rendering performance so the interface kept up with the message volume.",
+        text: "It started as my build during a vendor proof of concept, where we compared chat providers. Stream won, and the work became a team effort. The messages themselves stream through Stream's SDK, and everything else syncs from our own API. Screens use list virtualization throughout, so people in many chats at once still get fast, smooth lists.",
       },
       {
         heading: "Result",
