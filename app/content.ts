@@ -103,7 +103,7 @@ export const PROJECTS: Project[] = [
       },
       {
         heading: "Result",
-        text: "Agentic development is now part of how my team at Infinite Red works every day, and the workshop gives other engineers a structured way to start.",
+        text: "The practice is still evolving, and it is part of how my team at Infinite Red works every day. The workshop put everyone on the same footing, so the whole team builds on the same foundation instead of each person working it out alone.",
       },
     ],
   },
