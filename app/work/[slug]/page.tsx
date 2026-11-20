@@ -31,7 +31,11 @@ export default function CaseStudy({ params }: Params) {
   const project = PROJECTS[index];
   const next = PROJECTS[(index + 1) % PROJECTS.length];
   // The pull quote goes after the first block, where it breaks the column.
-  const [first, ...rest] = project.blocks;
+  // Draft blocks are unfinished copy. They show in development, with an
+  // editor's mark, and never in a production build.
+  const showDrafts = process.env.NODE_ENV === "development";
+  const blocks = project.blocks.filter((b) => showDrafts || !b.draft);
+  const [first, ...rest] = blocks;
 
   const renderBlock = (b: (typeof project.blocks)[number]) => (
     <section
@@ -73,7 +77,7 @@ export default function CaseStudy({ params }: Params) {
 
       <p className="ed-standfirst">{project.standfirst}</p>
 
-      {renderBlock(first)}
+      {first && renderBlock(first)}
       {project.pull && (
         <blockquote className="ed-pull">{project.pull}</blockquote>
       )}

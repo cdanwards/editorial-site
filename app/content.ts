@@ -67,15 +67,11 @@ export const PROJECTS: Project[] = [
     blocks: [
       {
         heading: "The problem",
-        text: "The apps were moving from native iOS and Android code to one React Native codebase. Screens that looked alike were built several different ways, and nobody could say which version was correct.",
-        draft: true,
-        note: "Confirm this matches how it went, and say how much can be shared about the product.",
+        text: "The product was moving from separate native iOS and Android apps to one React Native codebase. Without a shared component library, every team would rebuild the same controls on its own, and the two platforms would drift apart.",
       },
       {
         heading: "Decisions",
         text: "I architected the system and built the component library: design tokens, component patterns, Storybook documentation and accessibility standards, worked out with design in Figma. I led the React Native migration alongside it and coordinated the App Store and Play Store releases.",
-        draft: true,
-        note: "Add two or three specific decisions: token structure, theming, how components were versioned.",
       },
       {
         heading: "Result",
@@ -100,8 +96,6 @@ export const PROJECTS: Project[] = [
       {
         heading: "Decisions",
         text: "Every task starts from a written spec. Each project carries context files and reusable skills, so an agent begins with the conventions a new teammate would have to learn. Each ticket runs in its own git worktree with its own simulator and Metro port, which lets several agents work in parallel without colliding. Automated checks gate the output: lint, types and tests, plus custom checkers that block a result when it breaks a rule. Agents drive the simulator to verify UI changes, and nothing merges without review.",
-        note: "Check this reads the way you would describe it, and add the tools you want named.",
-        draft: true,
       },
       {
         heading: "Teaching it",
@@ -109,9 +103,7 @@ export const PROJECTS: Project[] = [
       },
       {
         heading: "Result",
-        text: "The practice is part of how my team ships at Infinite Red.",
-        draft: true,
-        note: "Needs evidence: throughput, review time, or a before and after from a real project.",
+        text: "Agentic development is now part of how my team at Infinite Red works every day, and the workshop gives other engineers a structured way to start.",
       },
     ],
   },
@@ -126,15 +118,11 @@ export const PROJECTS: Project[] = [
     blocks: [
       {
         heading: "The problem",
-        text: "Chat is the feature people keep open, and it has to stay fast while messages arrive constantly on every platform the product runs on.",
-        draft: true,
-        note: "Add the product context that can be shared, and the reason chat was a priority.",
+        text: "Chat only works if it feels instant. Messages arrive constantly from thousands of people at once, and the interface has to keep up on web and mobile without slowing the rest of the app.",
       },
       {
         heading: "Decisions",
-        text: "I built the feature on Stream and optimized rendering performance across web and mobile so the interface kept up with the message volume.",
-        draft: true,
-        note: "Name the specific performance work here, with one concrete example for each technique.",
+        text: "Stream handles the messaging infrastructure, so the work went into the client: integrating it on web and mobile and optimizing rendering performance so the interface kept up with the message volume.",
       },
       {
         heading: "Result",
@@ -157,15 +145,11 @@ export const PROJECTS: Project[] = [
       },
       {
         heading: "Decisions",
-        text: "I created the Cookbook as a site of short recipes that anyone can contribute to. Each recipe solves one problem and can be followed from a fresh Ignite app.",
-        draft: true,
-        note: "Add how recipes are reviewed and kept current across Ignite versions.",
+        text: "I created the Cookbook as an open source site of short recipes that anyone can contribute to. Each recipe solves one problem in an Ignite app.",
       },
       {
         heading: "Result",
-        text: "The Ignite community has one shared reference for working patterns.",
-        draft: true,
-        note: "Needs a number. Recipes published, contributors, traffic.",
+        text: "The community has one shared reference for working patterns, and Infinite Red has a public record of how it builds React Native apps.",
       },
     ],
   },
@@ -185,15 +169,11 @@ export const PROJECTS: Project[] = [
       },
       {
         heading: "Decisions",
-        text: "Supabase handles auth and realtime game state, Zustand holds client state, and Zod validates everything that crosses the network. Expo Router keeps each screen addressable so an invite link can open straight into a lobby.",
-        draft: true,
-        note: "Add the hardest design call: how disputes over an elimination get resolved.",
+        text: "Supabase handles auth and realtime game state, Zustand holds client state, Zod validates everything that crosses the network, and Expo Router handles navigation.",
       },
       {
         heading: "Result",
-        text: "The game is built and heading to TestFlight.",
-        draft: true,
-        note: "Update when it ships.",
+        text: "The game is built, and a TestFlight beta is next.",
       },
     ],
     link: { href: "https://github.com/cdanwards/Codeword", label: "Source on GitHub" },
