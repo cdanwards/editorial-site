@@ -46,7 +46,7 @@ export const STRENGTHS: Strength[] = [
   },
   {
     title: "Design systems",
-    text: "I architected a design system and component library from the ground up. It cut development time by 40% and became the org-wide standard for cross-platform UI.",
+    text: "I architected a design system and component library from the ground up, as part of the team that built it. It cut development time by 40% and became the org-wide standard for cross-platform UI.",
   },
   {
     title: "Teams that ship",
@@ -71,7 +71,7 @@ export const PROJECTS: Project[] = [
       },
       {
         heading: "Decisions",
-        text: "I architected the system and built the component library: design tokens, component patterns, Storybook documentation and accessibility standards, worked out with design in Figma. I led the React Native migration alongside it and coordinated the App Store and Play Store releases.",
+        text: "I architected the system as part of the team that built it. Design tokens were versioned and came straight from Figma: an export from the design files, then an import step in the project that reconciled the tokens and brought every component back into line. The library shipped as a versioned package that product teams installed, with Storybook documenting each component and its accessibility standards. I led the React Native migration alongside it and coordinated the App Store and Play Store releases.",
       },
       {
         heading: "Result",
