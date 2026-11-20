@@ -1,0 +1,49 @@
+# Dan Edwards
+
+> Personal site of Dan Edwards, a Staff Software Engineer at Infinite Red who owns mobile architecture, design systems, and engineering standards for consumer products.
+
+Dan Edwards is a Staff Software Engineer with over ten years of experience building and shipping production applications across web and mobile. At Infinite Red he owns mobile architecture, design systems, CI/CD, and engineering standards for consumer products serving hundreds of thousands of users, working mainly in React Native, Expo, TypeScript, and Next.js. He builds agentic development workflows (written specs, project context files, reusable skills, parallel coding agents on isolated worktrees, automated validation) with Claude Code and Cursor, and created The New Stack, a workshop on context engineering for senior and staff engineers. He contributes to Ignite and react-native-mlkit, and created Ignite Cookbook. Previously he worked at Wise Technologies / MyWell, Orange Bees, and NewSpring Church. He holds a B.S. in Finance from Anderson University and studied Front-End Web Development at The Iron Yard. He lives in Greenville, SC and works remotely.
+
+## Pages
+
+- [Home](https://danedwards.us/): Introduction, selected work, and contact details
+- [About](https://danedwards.us/about): Background and a summary of how Dan works
+- [Resume](https://danedwards.us/resume): Experience, education, and skills
+- [Resume PDF](https://danedwards.us/dan-edwards-resume.pdf): Downloadable resume
+- [Full site as markdown](https://danedwards.us/llms-full.txt): Every page's content in one file, including case studies and the full resume
+
+## Selected work
+
+- [A design system, built from the ground up](https://danedwards.us/work/design-system): A design system and component library that cut development time by 40% and became the org-wide standard for cross-platform UI
+- [An agentic workflow that ships production code](https://danedwards.us/work/agentic-workflow): How Dan works with coding agents: specs, context, parallel worktrees, and automated checks
+- [Real-time chat for thousands at once](https://danedwards.us/work/real-time-chat): Real-time chat on web and mobile, built on Stream, that drove a 40% increase in engagement
+- [Ignite Cookbook](https://danedwards.us/work/ignite-cookbook): An educational resource Dan created for Ignite, Infinite Red's React Native boilerplate
+- [Codeword](https://danedwards.us/work/codeword): A multiplayer word game built with React Native, Expo Router, Supabase, Zustand, and Zod
+
+## More projects
+
+- [HeyNbr](https://github.com/cdanwards/heynbr): A SaaS platform for neighborhood associations and HOAs, with subdomain-based multi-tenancy, built with React, TypeScript, Express, tRPC, PostgreSQL, and Prisma
+- [Inspiration](https://github.com/cdanwards/Inspiration): A mobile app to help process feelings, built with React Native, Expo, Kotlin, and Swift
+- [Simple Honest Games](https://github.com/cdanwards/simple-honest-games): Browser-based learning games for young kids, with zero dependencies
+- [Psychosocial](https://github.com/cdanwards/psychosocial): A parody social media platform with a metal-inspired interface, built with React, Node.js, Express, and MongoDB
+- [Animation Practice](https://github.com/cdanwards/animation-practice): React Native animation experiments with TypeScript and Expo
+
+## Skills
+
+- Mobile: React Native, Expo (EAS Build, EAS Update, config plugins), iOS and Android release management, MobX-State-Tree, Zustand, Redux
+- Frontend and design systems: React, Next.js, TypeScript, Tailwind CSS, Storybook, design tokens, component library architecture, accessibility
+- Backend and data: Node.js, GraphQL, Apollo, PostgreSQL, Prisma, Supabase, Firebase Functions, AWS Lambda
+- Agentic and AI-augmented engineering: Claude Code, Cursor, GitHub Copilot, agentic workflows, context engineering, spec-driven development, validation of AI output
+- CI/CD and platform: GitHub Actions, GitLab CI/CD, CircleCI, Docker, LaunchDarkly, A/B experimentation, phased rollouts
+- Testing and quality: Jest, React Native Testing Library, Detox, Amplitude, DataDog, Bugsnag
+
+## Links
+
+- [GitHub](https://github.com/cdanwards): Dan's GitHub profile and open source work
+- [LinkedIn](https://www.linkedin.com/in/cdanwards/): Professional profile
+- [BlueSky](https://bsky.app/profile/cdanwards.bsky.social): Social media presence
+- [Email](mailto:cdaniel.edwards@gmail.com): Direct contact
+
+## Optional
+
+- [Source Code](https://github.com/cdanwards/editorial-site): Source code for this site
